@@ -1,0 +1,57 @@
+  # Terraform Initialization
+terraform init
+
+# Create an Execution Plan
+terraform plan
+
+# Apply Changes
+terraform apply
+
+# Destroy Resources
+terraform destroy
+
+# Show Resource Outputs
+terraform show
+
+# List Resources
+terraform state list
+
+# Import Existing Infrastructure
+terraform import <resource_type>.<resource_name> <existing_id>
+
+# Validate Configuration
+terraform validate
+
+# Output Values
+terraform output
+
+# Terraform Console
+terraform console
+
+# Terraform Refresh
+terraform refresh
+
+# Terraform Graph
+terraform graph | dot -Tpng > graph.png
+
+# List AWS Resources in the State
+terraform state list
+
+# Show Resource Attributes
+terraform state show <resource_type>.<resource_name>
+
+# Force Unlock State
+terraform force-unlock <lock-id>
+
+# Clean Up Local State and Backends
+terraform state rm <resource_type>.<resource_name>
+
+# Format Terraform Code
+terraform fmt
+
+# Initialize and Upgrade Providers
+terraform init -upgrade
+
+# Enable Detailed Logging
+export TF_LOG=DEBUG
+
